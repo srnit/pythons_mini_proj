@@ -1,0 +1,6 @@
+import media
+import webbrowser;
+toy_story=media.Movie("toy story","a story","http://upload.wikimedia.org/wikimedia/en/1/13/Toy_Story.jpg","https://www.youtube.com/watch?v=vwyZH85NQC4")
+
+webbrowser.open(toy_story.movie_trailer)
+#toy_story.show_trailer();
